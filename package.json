@@ -1,0 +1,29 @@
+{
+  "name": "bg-css",
+  "version": "1.0.0",
+  "description": "dark theme css background transition",
+  "main": "./style.css",
+  "scripts": {
+    "deploy": "npx gh-pages -d ./ -s *.{html,css}"
+  },
+  "repository": {
+    "url": "https://github.com/zhangyu1818/bg-css"
+  },
+  "keywords": [
+    "css",
+    "dark theme",
+    "background",
+    "transition"
+  ],
+  "author": {
+    "name": "zhangyu1818",
+    "url": "https://zhangyu.dev"
+  },
+  "license": "MIT",
+  "files": [
+    "style.css"
+  ],
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
