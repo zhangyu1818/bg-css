@@ -1,0 +1,27 @@
+{
+  "name": "bg-css",
+  "version": "1.0.0",
+  "description": "css background transition",
+  "scripts": {
+    "deploy": "gh-pages -d ./"
+  },
+  "repository": {
+    "url": "https://github.com/zhangyu1818/bg-css"
+  },
+  "keywords": [
+    "css",
+    "background",
+    "transition"
+  ],
+  "author": {
+    "name": "zhangyu1818",
+    "url": "https://zhangyu.dev"
+  },
+  "license": "MIT",
+  "files": [
+    "style.css"
+  ],
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}

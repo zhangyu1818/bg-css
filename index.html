@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BG CSS</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      body {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+        appearance: none;
+        cursor: pointer;
+        border: none;
+        padding: 10px 16px;
+        mix-blend-mode: difference;
+      }
+    </style>
+  </head>
+  <body class="theme-bg">
+    <button>toggle</button>
+    <script>
+      document.querySelector('button').onclick = () => {
+        document.documentElement.classList.toggle('dark');
+      };
+    </script>
+  </body>
+</html>
