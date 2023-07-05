@@ -4,8 +4,14 @@
   --theme-bg-duration: 700ms;
   --theme-bg-transition: ease-in-out;
   transition: background var(--theme-bg-duration) var(--theme-bg-transition);
-  background: linear-gradient(to bottom left, #000 50%, #000 0, #fff 0, #fff 100%) 0/300vw 300vh
-    no-repeat;
+  background: linear-gradient(
+      to bottom left,
+      var(--theme-bg-dark) 50%,
+      var(--theme-bg-dark) 0,
+      var(--theme-bg-light) 0,
+      var(--theme-bg-light) 100%
+    )
+    0/300vw 300vh no-repeat;
 }
 
 .dark .theme-bg,
